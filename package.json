@@ -1,0 +1,40 @@
+{
+  "name": "karma-testingbot-launcher",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Launch any browser on TestingBot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tstingbot/karma-testingbot-launcher.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-launcher",
+    "testingbot"
+  ],
+  "author": "TestingBot <info@testingbot.com>",
+  "dependencies": {
+    "q": "^1.4.1",
+    "testingbot-tunnel-launcher": "",
+    "testingbot-api": "",
+    "wd": "^0.3.4"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-auto-release": "^0.0.6",
+    "grunt-bump": "^0.6.0",
+    "grunt-conventional-changelog": "^5.0.0",
+    "grunt-conventional-github-releaser": "^0.5.0",
+    "grunt-eslint": "^17.3.1",
+    "grunt-karma": "^0.12.1",
+    "grunt-npm": "^0.0.2",
+    "jasmine": "^2.3.2",
+    "karma": "^0.13.11",
+    "karma-jasmine": "^0.3.6",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}
