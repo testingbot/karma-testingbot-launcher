@@ -17,6 +17,11 @@ module.exports = function (config) {
       base: 'TestingBot',
       platform: 'VISTA',
       browserName: 'firefox'
+    },
+    'TB_IE': {
+      base: 'TestingBot',
+      platform: 'VISTA',
+      browserName: 'internet explorer'
     }
   }
 
@@ -28,7 +33,7 @@ module.exports = function (config) {
       'test/*.js'
     ],
     reporters: ['progress', 'testingbot'],
-    port: 9876,
+    port: 4040,
     colors: true,
     logLevel: config.LOG_DEBUG,
     testingbot: {
