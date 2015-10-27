@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tstingbot/karma-testingbot-launcher.git"
+    "url": "git://github.com/karma-runner/karma-testingbot-launcher.git"
   },
   "keywords": [
     "karma-plugin",
