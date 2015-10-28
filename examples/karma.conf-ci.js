@@ -1,6 +1,6 @@
 module.exports = function (config) {
-  if (!process.env.TB_KEY || !process.env.TB_SECRET) {
-    console.log('Make sure the TB_KEY and TB_SECRET environment variables are set.')
+  if (!process.env.TESTINGBOT_KEY || !process.env.TESTINGBOT_SECRET) {
+    console.log('Make sure the TESTINGBOT_KEY and TESTINGBOT_SECRET environment variables are set.')
     process.exit(1)
   }
 
