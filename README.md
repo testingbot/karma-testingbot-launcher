@@ -57,13 +57,13 @@ module.exports = function(config) {
 
 ## `testingbot` config properties shared across all browsers
 
-### key
+### apiKey
 Type: `String`
 Default: `process.env.TB_KEY`
 
 Your TestingBot api key, you can sign up [here](https://testingbot.com/users/sign_up).
 
-### secret
+### apiSecret
 Type: `String`
 Default: `process.env.TB_SECRET`
 
