@@ -1,6 +1,6 @@
 # karma-testingbot-launcher
 
-> Run your tests on [TestingBot](https://testingbot.com/)' browser cloud!
+> Run your tests on the [TestingBot](https://testingbot.com/) browser cloud!
 
 
 ## Installation
