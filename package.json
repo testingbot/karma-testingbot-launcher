@@ -36,5 +36,13 @@
     "karma": "1.x || ^0.13.11",
     "karma-jasmine": "1.x || ^0.3.6",
     "load-grunt-tasks": "^3.3.0"
-  }
+  },
+  "contributors": [
+    "TestingBot <info@testingbot.com>",
+    "jackspirou <jack.spirou@target.com>",
+    "Jochen <info@testingbot.com>",
+    "Rick Harris <rick.c.harris@gmail.com>",
+    "Mark Ethan Trostler <mark@zzo.com>",
+    "Mark Trostler <mark@zzo.com>"
+  ]
 }
