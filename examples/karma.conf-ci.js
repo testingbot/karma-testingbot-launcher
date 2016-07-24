@@ -1,9 +1,4 @@
 module.exports = function (config) {
-  if (!process.env.TESTINGBOT_KEY || !process.env.TESTINGBOT_SECRET) {
-    console.log('Make sure the TESTINGBOT_KEY and TESTINGBOT_SECRET environment variables are set.')
-    process.exit(1)
-  }
-
   var customLaunchers = {
     'TB_Chrome': {
       base: 'TestingBot',

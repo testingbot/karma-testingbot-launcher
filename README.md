@@ -53,7 +53,7 @@ module.exports = function(config) {
 }
 ```
 
-**Note: this config assumes that `process.env.TESTINGBOT_KEY` and `process.env.TESTINGBOT_SECRET` are set.**
+**Note: this config assumes that `process.env.TB_KEY` and `process.env.TB_SECRET` are set.**
 
 ## `testingbot` config properties shared across all browsers
 
