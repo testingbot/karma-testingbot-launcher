@@ -25,7 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-auto-release": "^0.0.6",
+    "grunt-auto-release": "^0.0.7",
     "grunt-bump": "^0.8.0",
     "grunt-conventional-changelog": "^6.1.0",
     "grunt-conventional-github-releaser": "^1.0.0",
