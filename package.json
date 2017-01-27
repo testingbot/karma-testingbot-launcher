@@ -20,7 +20,7 @@
     "q": "^1.4.1",
     "testingbot-tunnel-launcher": "",
     "testingbot-api": "",
-    "wd": "^1.1.1"
+    "wd": "^1.1.3"
   },
   "license": "MIT",
   "devDependencies": {
