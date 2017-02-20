@@ -1,6 +1,6 @@
 # karma-testingbot-launcher
 
-> Run your tests on [TestingBot](https://testingbot.com/)' browser cloud!
+> Run your tests on the [TestingBot](https://testingbot.com/) browser cloud!
 
 
 ## Installation
@@ -57,13 +57,13 @@ module.exports = function(config) {
 
 ## `testingbot` config properties shared across all browsers
 
-### key
+### apiKey
 Type: `String`
 Default: `process.env.TB_KEY`
 
 Your TestingBot api key, you can sign up [here](https://testingbot.com/users/sign_up).
 
-### secret
+### apiSecret
 Type: `String`
 Default: `process.env.TB_SECRET`
 
@@ -84,10 +84,13 @@ Options to send to TestingBot. Check [here](https://testingbot.com/support/other
 ### build
 Type: `String`
 Default: *One of the following environment variables*:
-`process.env.TRAVIS_BUILD_NUMBER`
 `process.env.BUILD_NUMBER`
 `process.env.BUILD_TAG`
+`process.env.CI_BUILD_NUMBER`
+`process.env.CI_BUILD_TAG`
+`process.env.TRAVIS_BUILD_NUMBER`
 `process.env.CIRCLE_BUILD_NUM`
+`process.env.DRONE_BUILD_NUMBER`
 
 ID of the build currently running. This should be set by your CI.
 
