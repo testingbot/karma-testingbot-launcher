@@ -1,3 +1,7 @@
+[![npm version](https://img.shields.io/npm/v/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher) [![npm downloads](https://img.shields.io/npm/dm/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher)
+[![CircleCI](https://circleci.com/gh/testingbot/karma-testingbot-launcher/tree/master.svg?style=svg)](https://circleci.com/gh/testingbot/karma-testingbot-launcher/tree/master) [![Dependency Status](https://img.shields.io/david/karma-runner/karma-testingbot-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-testingbot-launcher) [![devDependency Status](https://img.shields.io/david/dev/karma-runner/karma-testingbot-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-testingbot-launcher#info=devDependencies)
+
+
 # karma-testingbot-launcher
 
 > Run your tests on the [TestingBot](https://testingbot.com/) browser cloud!
