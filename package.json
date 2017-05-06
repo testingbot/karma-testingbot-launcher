@@ -33,7 +33,7 @@
     "grunt-karma": "2.0.0",
     "grunt-npm": "^0.0.2",
     "jasmine": "^2.6.0",
-    "karma": "1.6.0",
+    "karma": "1.7.0",
     "karma-jasmine": "1.1.0",
     "load-grunt-tasks": "^3.3.0",
     "karma-testingbot-launcher": "1.0.1"
