@@ -44,11 +44,12 @@
     "karma-testingbot-launcher": "1.x || *"
   },
   "contributors": [
-    "TestingBot <info@testingbot.com>",
-    "jackspirou <jack.spirou@target.com>",
+    "greenkeeperio-bot <support@greenkeeper.io>",
+    "jochen <jochen@netlog.com>",
     "Jochen <info@testingbot.com>",
-    "Rick Harris <rick.c.harris@gmail.com>",
     "Mark Ethan Trostler <mark@zzo.com>",
+    "jackspirou <jack.spirou@target.com>",
+    "Rick Harris <rick.c.harris@gmail.com>",
     "Mark Trostler <mark@zzo.com>"
   ]
 }
