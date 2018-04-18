@@ -1,8 +1,10 @@
-[![npm version](https://img.shields.io/npm/v/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher) [![npm downloads](https://img.shields.io/npm/dm/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher)
-[![CircleCI](https://img.shields.io/circleci/project/github/testingbot/karma-testingbot-launcher.svg)](https://circleci.com/gh/testingbot/karma-testingbot-launcher/tree/master) [![Dependency Status](https://img.shields.io/david/karma-runner/karma-testingbot-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-testingbot-launcher) [![devDependency Status](https://img.shields.io/david/dev/karma-runner/karma-testingbot-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-testingbot-launcher#info=devDependencies)
-
-
 # karma-testingbot-launcher
+
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/karma-runner/karma-testingbot-launcher)
+ [![npm version](https://img.shields.io/npm/v/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher) [![npm downloads](https://img.shields.io/npm/dm/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher)
+
+[![Build Status](https://img.shields.io/travis/karma-runner/karma-sauce-launcher/master.svg?style=flat-square)](https://travis-ci.org/karma-runner/karma-sauce-launcher) [![Dependency Status](https://img.shields.io/david/karma-runner/karma-sauce-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-sauce-launcher) [![devDependency Status](https://img.shields.io/david/dev/karma-runner/karma-sauce-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-sauce-launcher#info=devDependencies)
+
 
 > Run your tests on the [TestingBot](https://testingbot.com/) browser cloud!
 
@@ -17,7 +19,7 @@ npm install karma-testingbot-launcher --save-dev
 
 ## Usage
 
-This launcher is used to run your tests across many browsers and platforms on TestingBot. You can run the same tests on different browser versions and mobile browsers.
+This launcher is used to run your tests across many browsers and platforms on TestingBot. Typically this runner is used in a CI (Continuous Integration) system.
 
 ### Adding karma-testingbot-launcher to an existing Karma config
 
@@ -73,17 +75,32 @@ Default: `process.env.TB_SECRET`
 
 Your TestingBot api secret which you will see on your [account page](https://testingbot.com/members).
 
+### startConnect
+Type: `Boolean`
+Default: `true`
+
+If `true`, TestingBot Tunnel will be started automatically. Set this to `false` if you are launching tests locally and want to start TestingBot manually.
+
 ### connectOptions
 Type: `Object`
 Default:
 ```js
 {
   apiKey: 'apiKey',
-  apiSecret: 'apiSecret'
+  apiSecret: 'apiSecret',
+  tunnelIdentifier: 'tunnelId' //optional
 }
 ```
 
 Options to send to TestingBot. Check [here](https://testingbot.com/support/other/test-options) for all available options.
+
+### seleniumHost
+Type: `String`
+default: `hub.testingbot.com`
+
+### seleniumPort
+Type: `Number`
+default: `80`
 
 ### build
 Type: `String`
@@ -108,6 +125,12 @@ Name of the unit test group you are running.
 Type: `Array of Strings`
 
 Tags to use for filtering jobs in your TestingBot account.
+
+### tunnelIdentifier
+Type: `String`
+
+TestingBot Tunnel can proxy multiple sessions, this is an id of a tunnel session.
+
 
 ### screenrecorder
 Type: `Boolean`
@@ -164,3 +187,7 @@ Default: `'portrait'`
 Accepted values: `'portrait' || 'landscape'`
 
 Set this string if your unit tests need to run on a particular mobile device orientation for Android Browser or iOS Safari.
+
+## More Information
+
+You can find more information on our website regarding [TestingBot Tunnel](https://testingbot.com/support/other/tunnel)  and [Karma](https://testingbot.com/support/getting-started/karma.html).
