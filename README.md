@@ -3,7 +3,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/karma-runner/karma-testingbot-launcher)
  [![npm version](https://img.shields.io/npm/v/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher) [![npm downloads](https://img.shields.io/npm/dm/karma-testingbot-launcher.svg?style=flat-square)](https://www.npmjs.com/package/karma-testingbot-launcher)
 
-[![Build Status](https://img.shields.io/travis/karma-runner/karma-sauce-launcher/master.svg?style=flat-square)](https://travis-ci.org/karma-runner/karma-sauce-launcher) [![Dependency Status](https://img.shields.io/david/karma-runner/karma-sauce-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-sauce-launcher) [![devDependency Status](https://img.shields.io/david/dev/karma-runner/karma-sauce-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-sauce-launcher#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/karma-runner/karma-testingbot-launcher/master.svg?style=flat-square)](https://travis-ci.org/karma-runner/karma-testingbot-launcher) [![Dependency Status](https://img.shields.io/david/karma-runner/karma-testingbot-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-testingbot-launcher) [![devDependency Status](https://img.shields.io/david/dev/karma-runner/karma-testingbot-launcher.svg?style=flat-square)](https://david-dm.org/karma-runner/karma-testingbot-launcher#info=devDependencies)
 
 
 > Run your tests on the [TestingBot](https://testingbot.com/) browser cloud!
