@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+node_js:
+  - stable
+
+before_install:
+  - npm i -g npm
+  - npm config set loglevel warn
+
+before_script:
+  - npm install -g grunt-cli
+  - rm -rf node_modules/karma-testingbot-launcher
+  - cd node_modules && ln -nsf ../ karma-testingbot-launcher && cd ../
+
+script:
+  - grunt
