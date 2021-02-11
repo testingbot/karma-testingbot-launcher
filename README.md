@@ -115,7 +115,7 @@ Default: *One of the following environment variables*:
 
 ID of the build currently running. This should be set by your CI.
 
-### name
+### testName
 Type: `String`
 Default: `'Karma test'`
 
